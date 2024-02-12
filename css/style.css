@@ -1,0 +1,175 @@
+#home {
+    background-image: url(../images/tree.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#singer {
+    background-color: #E68285;
+    width: 50%;
+    display: block;
+}
+
+.details {
+    display: none;
+}
+
+.inner button {
+    background-color: #E68285;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.7rem;
+    font-weight: 600;
+    border: none;
+}
+
+.inner .details {
+    background-color: #C4C4C4;
+}
+
+#count {
+    background-image: url(../images/party2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 300px;
+}
+
+#count .time {
+    border: 1px white solid;
+    padding: 60px 20px;
+    font-size: 1.5rem;
+}
+
+#list {
+    left: 280px;
+    top: 50%;
+}
+
+.foot i {
+    padding-top: 10px;
+    padding-right: 5px;
+}
+
+.foot2 i {
+    padding-top: 13px;
+    padding-right: 5px;
+}
+
+.icon-item {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    transition: all 0.5s;
+    margin-left: 10px;
+}
+
+#footer {
+    height: 100vh;
+    color: #777;
+}
+
+#footer h2,
+h3 {
+    color: black;
+}
+
+.foot2 p {
+    color: #D62E33;
+}
+
+textarea {
+    height: 200px;
+}
+
+.bott {
+    display: block;
+    border: 1px solid #D62E33;
+    color: white;
+    background-color: #D62E33;
+    border-radius: 0;
+    width: 30%;
+    height: 13%;
+}
+
+.footer-home {
+    padding-top: 100px;
+}
+
+.icon-item:hover {
+    background-color: #D62E33;
+    color: white;
+}
+
+#details {
+    background-image: url("../img/hiring-concept-with-people-coming-together.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.layer2 {
+    background-color: rgba(214, 46, 51, 0.6);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.item-details {
+    border: 1px solid white;
+    padding: 50px;
+    font-size: 20px;
+}
+
+#setting {
+    position: fixed;
+    top: 0;
+    bottom: o;
+    z-index: 10;
+    display: flex;
+    height: 100%;
+    left: -200px;
+
+}
+
+.gear-box {
+    background-color: rgb(57, 136, 142);
+    width: 200px;
+}
+
+.gear-box a:hover {
+    color: rgba(214, 46, 51, 0.6);
+}
+
+.gear-box a {
+    transition: all 0.8s;
+}
+
+.gear-box i {
+    padding-left: 150px;
+    color: white;
+    cursor: pointer;
+}
+
+.gear-box a {
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 20px 10px 10px 10px;
+}
+
+.openNav {
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    align-self: start;
+    transform: translateY(700%);
+    color: white;
+
+}
